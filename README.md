@@ -12,7 +12,7 @@
 
 # languages and tools
 - Python
-- Html, Css, Javascript
+- Html, Css, Javascript and Bootstrap
 - Django
 - Sqlite3
 
@@ -23,14 +23,24 @@
 - python > 3.08
 
 # UI View
-
+# Homepage
 ![Image](https://github.com/user-attachments/assets/081dcac4-8e3a-40d6-98a1-7ef6a18ee017)
-![Image](https://github.com/user-attachments/assets/393c29b3-d266-4810-983d-5dd0c75a71cb)
-![Image](https://github.com/user-attachments/assets/58be807b-b2c4-4c6e-8f98-4d7bf060ffd2)
-![Image](https://github.com/user-attachments/assets/c5f5dffa-66c6-4468-90db-cb25692510f4)
+# registration
 ![Image](https://github.com/user-attachments/assets/fdccc6d0-7f26-4f9c-a1e7-115a7d0ee5d4)
-![Image](https://github.com/user-attachments/assets/bd5f874f-6e13-4b44-8c9c-d56495a07f42)
+# Pin generation
+![Image](https://github.com/user-attachments/assets/393c29b3-d266-4810-983d-5dd0c75a71cb)
+
+# Deposit
+![Image](https://github.com/user-attachments/assets/c5f5dffa-66c6-4468-90db-cb25692510f4)
+
+# Check balance
+![Image](https://github.com/user-attachments/assets/58be807b-b2c4-4c6e-8f98-4d7bf060ffd2)
+# Withdraw
 ![Image](https://github.com/user-attachments/assets/e992f510-73a7-44a6-9879-248d02afe9b9)
+
+# Transfer
+![Image](https://github.com/user-attachments/assets/bd5f874f-6e13-4b44-8c9c-d56495a07f42)
+
 
 
 # steps to set up this project
