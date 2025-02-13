@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+
+{% if var %}
+    <h1>Balance: {{ bal }}</h1>
+    <a href="{% url 'balance' %}" class="btn btn-light home-btn">
+        <i class="fa-solid fa-angle-left"></i>Back
+    </a>
+{% else %}
+    </a>
+    <form action="" method="POST" id="pinform">
+        {% csrf_token %}
+        <label id="acc">Account No:</label>
+        <input type="number" name="acc_no" id="acc_no" required>
+        <label id="pinn">Pin:</label>
+        <div class="pin-container">
+            <input type="number" class="pin-input" name="pin1" min="0" max="9" maxlength="1" required>
+            <input type="number" class="pin-input" name="pin2" min="0" max="9" maxlength="1" required>
+            <input type="number" class="pin-input" name="pin3" min="0" max="9" maxlength="1" required>
+            <input type="number" class="pin-input" name="pin4" min="0" max="9" maxlength="1" required>
+            <i class="fas fa-eye toggle-password"></i>
+        </div>
+        <button type="submit" id="bton">Check Balance</button>
+    </form>
+{% endif %}
+{% endblock %}

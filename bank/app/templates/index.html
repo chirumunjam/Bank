@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <!-- Register Card -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="{% static 'images/acc.jpg' %}" alt="" class="img">
+                        <h5 class="card-title">Register Account</h5>
+                        <p class="card-text">Create your new banking account</p>
+                        <a href="{% url 'register' %}"><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#registerModal">Register Now</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Generate PIN Card -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="{% static 'images/pin-code.png' %}" alt="" class="img">
+                        <h5 class="card-title">Generate PIN</h5>
+                        <p class="card-text">Create or change your PIN</p>
+                        <a href="{% url 'pin' %}"><button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#pinModal">Generate PIN</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Check Balance Card -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="{% static 'images/balance.jpg' %}" alt="" class="img">
+                        <h5 class="card-title">Check Balance</h5>
+                        <p class="card-text">View your current balance</p>
+                        <a href="{% url 'balance' %}"><button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#balanceModal">Check Balance</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Deposit Card -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="{% static 'images/deposit.png' %}" alt="" class="img">
+                        <h5 class="card-title">Deposit</h5>
+                        <p class="card-text">Deposit money to your account</p>
+                        <a href="{% url 'deposit' %}"><button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#depositModal">Deposit</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Withdraw Card -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="{% static 'images/withdraw.jpg' %}" alt="" class="img">
+                        <h5 class="card-title">Withdraw</h5>
+                        <p class="card-text">Withdraw money from your account</p>
+                        <a href="{% url 'withdraw' %}"><button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#withdrawModal">Withdraw</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Transfer Card -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="{% static 'images/bank-transfer.png' %}" alt="" class="img">
+                        <h5 class="card-title">Transfer</h5>
+                        <p class="card-text">Transfer money to another account</p>
+                        <a href="{% url 'transfer' %}"><button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#transferModal">Transfer</button></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+{% endblock %}
