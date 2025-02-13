@@ -4,7 +4,7 @@
 - Users can create account, Generate Pin, Check Balance, Withdraw, Deposit, and Transfer from one Account to another Account
 
 # Features
-- Auto send Email when account is created, pin is generated, withdrawl, and transfer<
+- Auto send Email when account is created, pin is generated, withdrawl, and transfer
 - Pin basic encryption
 - Deposit
 - Withdrawl
